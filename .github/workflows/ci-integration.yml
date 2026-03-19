@@ -1,0 +1,13 @@
+name: CI Integration
+
+on:
+  workflow_dispatch: 
+
+jobs:
+  job1:
+    runs-on: ubuntu-22.04
+
+    steps:
+         - name: Print a message
+           run: echo "this is our first task"
+
